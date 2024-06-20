@@ -1,0 +1,46 @@
+@import "../../app.scss";
+
+.navbar {
+    height: 100px;
+    //z-index: 10;
+   //background-color:  #12122b;
+  // background-color: linear-gradient(180deg, #17075f, #12122b);;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+
+
+    .wrapper {
+        max-width: 1366px;
+        margin: auto;
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+        height: 100%; 
+
+        @include mobile {
+          justify-content: flex-end;
+          padding: 20px;
+         
+      }
+
+        span {
+            font-weight: bold;
+
+            @include mobile {
+              display: none;
+          }
+        }
+
+        .social {
+            display: flex;
+            gap: 20px;
+
+          img {
+            width: 28px;
+            height: 28px;
+          }    
+        }
+    }
+}
