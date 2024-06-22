@@ -10,6 +10,14 @@ const items = [
     desc: "Developed a full stack Food Ordering Application using MERN stack to streamline the process of booking online food delivery. This application provides an intuitive interface for people to book food online",
     url: "https://cuisine-courier.vercel.app/",
   },
+
+  {
+    id: 2,
+    title: "Edugate- React Website",
+    img: "/project-2.png",
+    desc: "Developed a full stack Food Ordering Application using MERN stack to streamline the process of booking online food delivery. This application provides an intuitive interface for people to book food online",
+    url: "https://edugate-nine.vercel.app/",
+  },
 ];
 
 const Single = ({ item }) => {
