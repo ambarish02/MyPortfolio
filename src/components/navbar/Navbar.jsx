@@ -21,7 +21,7 @@ const Navbar = () => {
          <div className="social">
             <a href="https://github.com/ambarish02" target='_blank'><img src="/Glogo.png" alt="" /></a>
             <a href="https://www.instagram.com/am_baarish" target='_blank'><img src="/instagram.png" alt="" /></a>
-            <a href="https://www.linkedin.com/in/ambarish-dandekar-877828302/" target='_blank'><img src="/linkedIn.png" alt="" /></a>
+            <a href="https://www.linkedin.com/in/ambarish-dandekar-877828302" target='_blank'><img src="/linkedIn.png" alt="" /></a>
             {/* <a href="#"><img src="/github.png" alt="" /></a> */}
          </div>
       </div>

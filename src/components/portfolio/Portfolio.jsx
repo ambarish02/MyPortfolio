@@ -10,12 +10,19 @@ const items = [
     desc: "Developed a full stack Food Ordering Application using MERN stack to streamline the process of booking online food delivery. This application provides an intuitive interface for people to book food online",
     url: "https://cuisine-courier.vercel.app/",
   },
-
+ 
   {
     id: 2,
+    title: "Crypto Tracker",
+    img: "/project-3333.png ",
+    desc: "Crypto-Tracker provides a crypto dashboard to analyse, compare and learn about prices of different crypto currencies.",
+    url: "https://crypto-tracker-lsit.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Edugate- React Website",
     img: "/project-2.png",
-    desc: "Developed a full stack Food Ordering Application using MERN stack to streamline the process of booking online food delivery. This application provides an intuitive interface for people to book food online",
+    desc: "Edugate website provides detailed information related to the university, including courses, departments, campus and other key resources.",
     url: "https://edugate-nine.vercel.app/",
   },
 ];
